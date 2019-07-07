@@ -1,24 +1,52 @@
 h1 {
   color: #2f4f2f;
   margin-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
-#main-nav {
+
+.title {
+  font: 32px Helvetica, Arial, sans-serif;
+}
+.nav {
   margin-top: 10px;
   list-style: none;
   padding-left: 0; 
 }
 
-#main-nav li {
+.nav li {
   display: inline-block;
 }
 
-#main-nav a {
+.nav a {
   color: white;
   background-color: #13a4a4;
   padding: 5px;
-  border-radius: 2px;
+  border-radius: 4px;
   text-decoration: none;
 }
-.featured {
-  background-color: orange;
+.nav .featured {
+   background-color: orange;
+}
+
+.nav a:hover {
+  color: #ff9959;
+  box-shadow: 10px 2px;
+}
+
+.nav .featured:hover {
+  color: black;
+}
+
+.footer {
+  color: #666;
+  background-color: #ccc;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: initial;
+  text-decoration: underline;
 }
